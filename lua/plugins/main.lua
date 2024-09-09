@@ -5,13 +5,6 @@ return {
 	version = "*"
   	},
 	{
-	"nvim-tree/nvim-tree.lua",version = "*",
-	lazy = false,
-	dependencies = {
-		"nvim-tree/nvim-web-devicons",
-		},
-	},
-	{
 		'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
 },
