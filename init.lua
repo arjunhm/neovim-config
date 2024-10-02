@@ -160,7 +160,7 @@ require("lspconfig")["gopls"].setup {
 vim.g.mapleader = "\\"
 vim.cmd.colorscheme "catppuccin"
 vim.keymap.set("n", "<leader>nnp", ":NoNeckPain<CR>", {silent = true})
---vim.keymap.set("n", "<leader>nto", ":NvimTreeOpen<CR>", { silent = true })
+-- vim.keymap.set("n", "<leader>nto", ":NvimTreeOpen<CR>", { silent = true })
 vim.opt.number = true
 vim.opt.foldlevel = 0
 vim.opt.tabstop = 2
